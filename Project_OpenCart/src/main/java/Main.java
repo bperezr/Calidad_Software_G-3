@@ -10,7 +10,7 @@ public class Main {
         
         ChromeDriver driver = new ChromeDriver(); 
                      
-         driver.get("https://www.opencart.com/");
+         driver.get("http://localhost/opencartsite/");
          
          driver.manage().window().maximize();
              
