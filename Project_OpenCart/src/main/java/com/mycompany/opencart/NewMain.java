@@ -15,8 +15,11 @@ public class NewMain {
     public static void main(String[] args) {
      System.setProperty("webdriver.chrome.driver","C:\\chromedriver_win32\\chromedriver.exe");
       
-      NewMain loginuser = new NewMain();
-        loginuser.login();
+//      NewMain loginuser = new NewMain();
+//        loginuser.login();
+
+      Admin extension = new Admin();
+      extension.admin();
     }
 
     
