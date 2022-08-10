@@ -3,7 +3,6 @@ package com.mycompany.opencart;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.List;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.WebDriver;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -52,6 +51,7 @@ public class NewMain {
         driver.findElement(By.xpath("//*[@id=\"form-register\"]/div/div/div/input")).click();
           //Continue Button
         driver.findElement(By.xpath("//*[@id=\"form-register\"]/div/div/button")).click(); 
+        
         
     }
     
