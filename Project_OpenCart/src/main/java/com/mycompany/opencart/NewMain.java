@@ -18,7 +18,8 @@ public class NewMain {
 //        loginuser.login();
 
       Admin extension = new Admin();
-      extension.admin();
+      extension.addFreeShipping();
+      extension.modifyFreeShipping();
     }
 
     
